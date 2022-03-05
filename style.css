@@ -11,6 +11,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: blue;
 }
 
 nav {
@@ -40,4 +41,28 @@ nav ul li {
     border: 3px solid red;
     color: red;
     background-color: white;
+}
+
+.botao-menu button:hover {
+    background-color: red;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.section-1 {
+    display: flex;
+    height: 625px;
+    background-color: green;
+}
+
+.textos {
+    width: 50%;
+    height: 625px;
+    background-color: blueviolet;
+}
+
+.imagens {
+    width: 50%;
+    height: 625px;
+    background-color: brown;
 }
