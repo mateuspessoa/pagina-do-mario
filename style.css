@@ -11,7 +11,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: blue;
+}
+
+.logo {
+    position: relative;
+    right: 78px;
 }
 
 nav {
@@ -30,6 +34,7 @@ nav ul li {
     font-size: 18px;
     font-weight: bold;
     color: rgba(128, 128, 128, 0.651);
+    cursor: pointer;
 }
 
 .botao-menu button {
@@ -41,6 +46,7 @@ nav ul li {
     border: 3px solid red;
     color: red;
     background-color: white;
+    cursor: pointer;
 }
 
 .botao-menu button:hover {
@@ -52,21 +58,74 @@ nav ul li {
 .section-1 {
     display: flex;
     height: 625px;
-    background-color: green;
+}
+
+.esquerda {
+    width: 50%;
+    height: 625px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .textos {
-    width: 50%;
-    height: 625px;
-    background-color: blueviolet;
+    height: 500px;
+    width: 600px;
 }
 
-.imagens {
-    width: 50%;
-    height: 625px;
-    background-color: brown;
+.texto-principal {
+    margin-bottom: 20px;
+}
+
+.texto-principal h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+
+.texto-principal h1 span {
+    color: red;
+}
+
+.descricao {
+    margin-bottom: 30px;
+}
+
+.descricao p {
+    font-family: 'Roboto';
+    color: rgba(128, 128, 128, 0.651);
+
 }
 
 form {
-    
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 15px;
+    width: 400px;
+    height: 45px;
+    border: 2px solid rgba(128, 128, 128, 0.651);;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 15px;
+}
+
+form button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 625px;
 }
